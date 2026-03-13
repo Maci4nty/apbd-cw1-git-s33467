@@ -1,1 +1,1 @@
-Program ma główną metodę liczącą iloczyn dwóch liczb a następnie 2 nieużywane na ten moment metody liczące średnią i największą wartość w tablicy
+Nie było tym razem merge fast-forward, ponieważ przed mergem powstał jeden commit (niezwiązany) na gałęzi main
