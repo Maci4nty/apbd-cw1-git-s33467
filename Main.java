@@ -11,8 +11,12 @@ public class Main {
             int b = sc.nextInt();
 
             int sum = a * b;
-       
-            System.out.println(sum);
+
+            if (sum > 0) {
+                System.out.println("Iloczyn liczb jest dodatni, a wynik to " + sum);
+            } else 
+                System.out.println("Iloczyn liczb jest ujemny, a wynik to: " + sum);
+
         } catch (InputMismatchException e) {
             System.out.println("Nieprawidłowy typ danych");
         }
