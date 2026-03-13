@@ -34,4 +34,15 @@ public class Main {
         double avg = sum / values.length;
         return "Średnia wynosi: " + avg;
     }
+
+    public static int calculateMax(int[] values) {
+        int max = values[0];
+        for (int i = 0; i < values.length; i++) {
+            if (values[i] > max) {
+                max = values[i];
+            }
+        }
+        
+        return max;
+    }
 }
