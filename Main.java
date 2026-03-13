@@ -23,4 +23,15 @@ public class Main {
 
         sc.close();
     }
+
+
+    public static double calculateAverage(int[] values) {
+        int sum = 0;
+        for (int val : values) {
+            sum += val;
+        }
+
+        double avg = sum / values.length;
+        return "Średnia wynosi: " + avg;
+    }
 }
