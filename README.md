@@ -1,1 +1,3 @@
-Nie było tym razem merge fast-forward, ponieważ przed mergem powstał jeden commit (niezwiązany) na gałęzi main
+1. Fast-Forward staje się kiedy na drugiej gałęzi nie posiadamy żadnych niezależnych commitów od czasów odgałęzienia. W innym przypadku otrzymujemy merge commit
+2. Merge łączy dwie ścieżki w nowym punkcie, natomiast Rebase przyłącza gałąź doczepianą na końcu gałęzi docelowej przy tym zmieniając historie
+3. Poprzez usunięcie zanczników Gita oraz dopsaowałem tekst, który bardziej pasował w tym miejscu
