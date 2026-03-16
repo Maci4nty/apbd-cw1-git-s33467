@@ -22,6 +22,15 @@ public class Main {
         }
 
         sc.close();
+
+        int[] arr = {1, 520, 24, 5, 14, 81, 6};
+        double avg = calculateAverage(arr);
+        int max = calculateMax(arr);
+        int min = calculateMin(arr);
+
+        System.out.println("Średnia tablicy to: " + avg);
+        System.out.println("Minimalna wartość tablicy to: " + min);
+        System.out.println("Maksymalna wartość tablicy to: " + max);
     }
 
 
@@ -32,7 +41,7 @@ public class Main {
         }
 
         double avg = sum / values.length;
-        return "Średnia wynosi: " + avg;
+        return avg;
     }
 
     public static int calculateMax(int[] values) {
@@ -44,5 +53,15 @@ public class Main {
         }
         
         return max;
+    }
+
+    public static int calculateMin(int[] values){
+        int min = values[0];
+        for (int i = 0; i < values.length; i++) {
+            if (values[i] < min) {
+                min = values[i];
+            }
+        }
+        return min;
     }
 }
