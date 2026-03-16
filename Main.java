@@ -56,6 +56,7 @@ public class Main {
     }
 
     public static int calculateMin(int[] values){
+
         int min = values[0];
         for (int i = 0; i < values.length; i++) {
             if (values[i] < min) {
@@ -63,5 +64,7 @@ public class Main {
             }
         }
         return min;
+
+        return val;
     }
 }
