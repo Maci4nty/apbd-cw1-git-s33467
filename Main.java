@@ -28,7 +28,7 @@ public class Main {
         int max = calculateMax(arr);
         int min = calculateMin(arr);
 
-        System.out.println("Średnia tablicy to: " + avg);
+        System.out.println("Średnia: " + avg);
         System.out.println("Minimalna wartość tablicy to: " + min);
         System.out.println("Maksymalna wartość tablicy to: " + max);
     }
