@@ -56,8 +56,6 @@ public class Main {
     }
 
     public static int calculateMin(int[] values){
-<<<<<<< HEAD
-
         int min = values[0];
         for (int i = 0; i < values.length; i++) {
             if (values[i] < min) {
@@ -65,10 +63,5 @@ public class Main {
             }
         }
         return min;
-
-=======
-        int min = values[0];
->>>>>>> fec11b7 (zadeklarowanie domyślnej minimalnej wartości)
-        return val;
     }
 }
